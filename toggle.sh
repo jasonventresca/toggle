@@ -3,11 +3,12 @@
 # @usage:  toggle extension_A extension_B file1 [file2, file3, ...]
 #          '--> this enables extension_A and disables extension_B
 
+set -eu
+
 # grab command line args
 extension_A=$1
 extension_B=$2
-shift
-shift
+shift 2
 files=$@
 
 # toggle each file
