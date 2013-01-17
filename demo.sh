@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 # @brief:  demo of toggle.sh
-# @usage:  ./demo.sh
+# @usage:  sh ./demo.sh
 
 # create/prepare test environment
 echo 'a - original' > a
