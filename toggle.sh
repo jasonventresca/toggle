@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 # @brief:  toggle between two versions of a file (suffixed with .$extension_A and.$extension_B)
-# @usage:  toggle extension_A extension_B file1 [file2, file3, ...]
+# @usage:  ./toggle.sh extension_A extension_B file1 [file2, file3, ...]
 #          '--> this enables extension_A and disables extension_B
 
 set -eu
